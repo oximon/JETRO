@@ -1,0 +1,21 @@
+@import "__item/footer__item";
+@import "__soc/footer__soc";
+@import "__soc-img/footer__soc-img";
+@import "__soc-link/footer__soc-link";
+@import "__text/footer__text";
+@import "__title/footer__title";
+@import "__twitter-post/footer__twitter-post";
+@import "__twitter-post-date/footer__twitter-post-date";
+@import "__twitter-post-tag/footer__twitter-post-tag";
+@import "__twitter-post-text/footer__twitter-post-text";
+
+.footer {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 38px 35px;
+  @include flexbox;
+  background-color: $color-bg-footer;
+	box-sizing: border-box;
+	@include for-tablet-portait-only {padding: 38px 15px;}
+	
+}

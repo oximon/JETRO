@@ -1,0 +1,15 @@
+.header__list-link {
+  text-decoration: none;
+  color: $color-of-link;
+  @extend %font-settings-link;
+  transition: color .5s;
+  &:hover {
+    color: $color-of-active-link;
+  }
+  &:hover .header__list-link-another-color {
+    color: $color-of-link-another;
+    transition: color 0.5s;
+  }
+}
+
+@import "_active/header__list-link_active";

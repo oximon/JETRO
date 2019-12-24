@@ -1,0 +1,19 @@
+
+
+.number-of-page__link {
+	padding: 6px 12px 7px 10px;
+	color: $color-of-number-of-page-link;
+	background-color: $color-of-bg-number-of-page-link;
+	@extend %font-settings-number-of-page-link;
+	text-decoration: none;
+	margin-right: 26px;
+	&:last-child {
+		margin-right: 0;
+	}
+	&:hover {
+		background-color: $color-of-bg-number-of-page-link;
+	}
+}
+
+
+@import '_inactive/number-of-page__link_inactive';

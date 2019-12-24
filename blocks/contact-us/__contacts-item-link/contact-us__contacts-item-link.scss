@@ -1,0 +1,7 @@
+@import '_bold/contact-us__contacts-item-link_bold';
+
+.contact-us__contacts-item-link {
+	text-decoration: none;
+	@extend %font-settings-text-contact-us;
+	color: $color-of-text-contact-us;
+}

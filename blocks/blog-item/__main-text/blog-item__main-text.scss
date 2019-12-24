@@ -1,0 +1,8 @@
+.blog-item__main-text {
+	color: $color-of-main-text-blog;
+	@extend %font-settings-main-text-blog;
+	margin-bottom: 30px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

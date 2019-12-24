@@ -1,0 +1,8 @@
+.contact-us__psd-studios-item {
+	color: $color-of-text-contact-us;
+	@extend %font-settings-text-contact-us;
+	&:first-child {
+		color: $color-of-text-contact-us-heading;
+		@extend %font-settings-text-contact-us-heading;
+	}
+}

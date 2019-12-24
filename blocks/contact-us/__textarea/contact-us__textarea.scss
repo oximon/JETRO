@@ -1,0 +1,11 @@
+.contact-us__textarea {
+  color: $color-of-text-contact-us-link;
+	@extend %font-settings-text-contact-us-link;
+	padding: 13px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	outline: none;
+  border: 1px solid #e8603c;
+	width: 100%;
+	min-height: 204px;
+}

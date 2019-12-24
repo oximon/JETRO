@@ -1,0 +1,19 @@
+@import '__contacts/contact-us__contacts';
+@import '__contacts-item/contact-us__contacts-item';
+@import '__contacts-item-link/contact-us__contacts-item-link';
+@import '__description/contact-us__description';
+@import '__flex-container/contact-us__flex-container';
+@import '__form/contact-us__form';
+@import '__input/contact-us__input';
+@import '__map-img/contact-us__map-img';
+@import '__psd-studios/contact-us__psd-studios';
+@import '__psd-studios-item/contact-us__psd-studios-item';
+@import '__text/contact-us__text';
+@import '__textarea/contact-us__textarea';
+
+.contact-us {
+	padding-bottom: 37px;
+	@include for-tablet-landscape-only { padding-left: 35px;}
+	@include for-tablet-portait-only {padding-left: 15px;}
+
+}

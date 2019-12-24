@@ -1,0 +1,8 @@
+@import '_margin/_block1/about-us__text_margin_block1';
+@import '_margin/_block2/about-us__text_margin_block2';
+
+.about-us__text {
+	color: $color-about-us-text;
+	@extend %font-settings-about-us-text;
+	margin-bottom: 25px;
+}

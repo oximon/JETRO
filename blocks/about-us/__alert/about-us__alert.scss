@@ -1,0 +1,13 @@
+@import '_color/_blue/about-us__alert_color_blue';
+@import '_color/_green/about-us__alert_color_green';
+@import '_color/_orange/about-us__alert_color_orange';
+@import '_color/_pink/about-us__alert_color_pink';
+
+.about-us__alert {
+	height: 60px;
+	@include flexbox($align-items:center, $justify-content:center);
+	margin-bottom: 20px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

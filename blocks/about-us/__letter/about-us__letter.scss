@@ -1,0 +1,6 @@
+.about-us__letter {
+	color: $color-about-us-d;
+	@extend %font-settings-about-us-d;
+	float: left;
+	margin: 10px 5px 0 0;
+}

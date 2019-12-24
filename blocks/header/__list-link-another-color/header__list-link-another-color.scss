@@ -1,0 +1,6 @@
+.header__list-link-another-color {
+	transition: color .5s;
+	color: $color-of-link;
+}
+
+@import '_active/header__list-link-another-color_active';

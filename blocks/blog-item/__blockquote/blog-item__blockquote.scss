@@ -1,0 +1,16 @@
+.blog-item__blockquote {
+	color: $color-of-blockquote-blog;
+	@extend %font-settings-blockquote-blog;
+	padding: 23px 30px 17px 75px;
+	background-color: $color-of-bg-blockquote-blog;
+	margin-bottom: 50px;
+	position: relative;
+	&::before {
+		content: url('../images/blog-icon4-red.png');
+		width: 25px;
+		height: 20px;
+		position: absolute;
+		left: 38px;
+		top: 22px;
+	}
+}

@@ -1,0 +1,15 @@
+@import '__date/post__date';
+@import '__description/post__description';
+@import '__heading/post__heading';
+@import '__img/post__img';
+@import '_hover/post_hover';
+
+.post {
+	display: block;
+	text-decoration: none;
+	max-width: 220px;
+	margin-right: 20px;
+	&:last-child {
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,5 @@
+.blog-item__container {
+	@include for-tablet-landscape-only { padding-left: 35px;}
+	@include for-tablet-portait-only {padding-left: 15px;}
+
+}

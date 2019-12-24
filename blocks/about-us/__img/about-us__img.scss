@@ -1,0 +1,10 @@
+.about-us__img {
+	width: 222px;
+	height: 221px;
+	box-sizing: border-box;
+	margin-right: 23px;
+	padding: 3px;
+	border: 1px solid #ccc;
+	@include for-tablet-portait-only {margin: 0 0 25px 0;}
+
+}

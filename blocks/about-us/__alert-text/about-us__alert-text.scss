@@ -1,0 +1,8 @@
+@import '_color/_blue/about-us__alert-text_color_blue';
+@import '_color/_green/about-us__alert-text_color_green';
+@import '_color/_orange/about-us__alert-text_color_orange';
+@import '_color/_pink/about-us__alert-text_color_pink';
+
+.about-us__alert-text {
+	@extend %font-settings-about-us-alert;
+}

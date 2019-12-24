@@ -1,0 +1,17 @@
+.contact-us__input {
+  width: 216px;
+  height: 33px;
+  box-sizing: border-box;
+  border: 1px solid #e8603c;
+  padding: 11px 13px;
+  color: $color-of-text-contact-us-link;
+	@extend %font-settings-text-contact-us-link;
+	@include for-tablet-portait-only {max-width: 148px;}
+	
+	margin-bottom: 12px;
+  outline: none;
+  &::placeholder {
+    color: $color-of-text-contact-us-link;
+    @extend %font-settings-text-contact-us-link;
+  }
+}

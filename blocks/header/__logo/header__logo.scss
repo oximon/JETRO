@@ -1,0 +1,6 @@
+.header__logo {
+	text-decoration: none;
+	color: $color-of-logo;
+	text-transform: uppercase;
+	@extend %font-settings-logo;
+}

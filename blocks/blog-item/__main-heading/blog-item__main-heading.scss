@@ -1,0 +1,5 @@
+.blog-item__main-heading {
+	color: $color-of-main-heading-blog;
+	@extend %font-settings-main-heading-blog;
+	margin-bottom: 23px;
+}

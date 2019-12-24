@@ -1,0 +1,5 @@
+.about-us__block {
+	@include flexbox;
+	@include for-tablet-portait-only {flex-direction: column;}
+
+}

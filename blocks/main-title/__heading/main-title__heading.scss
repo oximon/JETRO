@@ -1,0 +1,8 @@
+.main-title__heading {
+	@extend %font-settings-main-title;
+	color: $color-main-title;
+	padding: 19px;
+	margin: 0;
+	@include for-tablet-landscape-only { padding: 19px 48px;}
+
+}

@@ -1,0 +1,3 @@
+.sidebar__gallery {
+	@include grid(repeat(4, 1fr), repeat(2, 1fr), 5px);
+}

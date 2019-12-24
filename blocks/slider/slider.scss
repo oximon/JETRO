@@ -1,0 +1,15 @@
+@import '__description/slider__description';
+@import '__item/slider__item';
+@import '__text/slider__text';
+@import '__title/slider__title';
+@import '__next/slider__next';
+@import '__previous/slider__previous';
+
+.slider {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-bottom: 43px;
+	@include grid(repeat(6, 1fr), 400px 120px, 20px);
+	@include for-tablet-portait-only { grid-template-rows: 400px};
+
+}

@@ -1,0 +1,52 @@
+.slider__item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  &:nth-child(1) {
+    position: relative;
+    grid-column: 1 / 7;
+    width: 100%;
+    background-image: url(../images/slider1.png);
+  }
+  &:nth-child(2) {
+    background-image: url(../images/slider2.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+  &:nth-child(3) {
+    background-image: url(../images/slider3.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+  &:nth-child(4) {
+    background-image: url(../images/slider4.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+  &:nth-child(5) {
+    background-image: url(../images/slider5.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+  &:nth-child(6) {
+    background-image: url(../images/slider6.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+  &:nth-child(7) {
+    background-image: url(../images/slider7.png);
+    @include for-tablet-portait-only {
+			display: none;
+			position: absolute;
+    }
+  }
+}

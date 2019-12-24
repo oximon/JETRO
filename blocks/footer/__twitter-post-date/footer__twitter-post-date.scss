@@ -1,0 +1,8 @@
+.footer__twitter-post-date {
+	color: $color-footer-tag;
+	@extend %font-settings-footer-text;
+	margin-bottom: 18px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

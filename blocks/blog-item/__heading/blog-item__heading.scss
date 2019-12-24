@@ -1,0 +1,5 @@
+.blog-item__heading {
+	color: $color-of-heading-blog;
+	@extend %font-settings-heading-blog;
+	margin-bottom: 3px;
+}

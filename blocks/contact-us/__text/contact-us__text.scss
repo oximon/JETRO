@@ -1,0 +1,5 @@
+.contact-us__text {
+	color: $color-of-text-contact-us;
+	@extend %font-settings-text-contact-us;
+	margin-bottom: 14px;
+}

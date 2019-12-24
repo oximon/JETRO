@@ -1,0 +1,12 @@
+
+.number-of-page {
+	list-style:  none;
+	padding: 0;
+	@include flexbox($justify-content: none);
+	max-width: 940px;
+	padding-bottom: 50px;
+	text-decoration: none;
+}
+
+@import '__link/number-of-page__link';
+@import '__item/number-of-page__item';

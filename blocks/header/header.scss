@@ -1,0 +1,17 @@
+@import '__list/header__list';
+@import '__list-item/header__list-item';
+@import '__logo/header__logo';
+@import '__logo-another-color/header__logo-another-color';
+@import '__nav/header__nav';
+@import '__list-link/header__list-link';
+@import '__list-link-another-color/header__list-link-another-color';
+
+.header {
+	max-width: 940px;
+	margin: 0 auto;
+	@include flexbox($align-items: center); 
+	padding: 22px 0;
+	@include for-tablet-landscape-only { padding: 22px 35px;}
+	@include for-tablet-portait-only {padding: 11px 15px;}
+	// @include for-phone-only {padding: ;}
+}

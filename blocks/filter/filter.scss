@@ -1,0 +1,12 @@
+@import '__item/filter__item';
+
+.filter {
+	list-style:  none;
+	// padding: 0;
+	@include flexbox($justify-content: none);
+	max-width: 940px;
+	margin: 0 auto 37px;
+	@include for-tablet-landscape-only { padding: 0 35px;}
+	@include for-tablet-portait-only {padding: 0 15px;}
+
+}

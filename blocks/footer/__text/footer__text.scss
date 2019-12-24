@@ -1,0 +1,8 @@
+.footer__text {
+	color: $color-footer-text;
+	@extend %font-settings-footer-text;
+	margin-bottom: 15px;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}

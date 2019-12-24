@@ -1,0 +1,5 @@
+.blog-item__subheading {
+	color: $color-of-subheading-blog;
+	@extend %font-settings-subheading-blog;
+	margin-bottom: 15px;
+}

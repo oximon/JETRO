@@ -1,0 +1,17 @@
+@import '__alert/about-us__alert';
+@import '__alert-text/about-us__alert-text';
+@import '__block/about-us__block';
+@import '__block1/about-us__block1';
+@import '__block2/about-us__block2';
+@import '__blockquote/about-us__blockquote';
+@import '__img/about-us__img';
+@import '__letter/about-us__letter';
+@import '__text/about-us__text';
+@import '__blockquote-block/about-us__blockquote-block';
+@import '__blockquote-line/about-us__blockquote-line';
+
+.about-us {
+	margin-bottom: 41px;
+	@include for-tablet-landscape-only { padding-left: 35px;}
+	@include for-tablet-portait-only {padding-left: 15px;}
+}

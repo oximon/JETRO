@@ -1,0 +1,14 @@
+@import "../blocks/page/page";
+@import "../blocks/header/header";
+@import "../blocks/footer/footer";
+@import "../blocks/main-title/main-title";
+@import "../blocks/sidebar/sidebar";
+@import "../blocks/main-content/main-content";
+@import "../blocks/hatch/hatch";
+@import "../blocks/blog-item/blog-item";
+@import '../blocks/number-of-page/number-of-page';
+                         
+* {
+  padding: 0;
+  margin: 0;
+}

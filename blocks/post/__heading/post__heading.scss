@@ -1,0 +1,5 @@
+.post__heading {
+	color: $color-of-link;
+	@extend %font-settings-link;
+	margin-bottom: 8px;
+}

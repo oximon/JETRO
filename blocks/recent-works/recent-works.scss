@@ -1,0 +1,13 @@
+@import "__container/recent-works__container";
+@import "__title/recent-works__title";
+
+.recent-works {
+  max-width: 940px;
+  margin: 0 auto 48px;
+  @include for-tablet-landscape-only {
+    padding: 0 35px;
+  }
+  @include for-tablet-portait-only {
+    padding: 0 15px;
+  }
+}

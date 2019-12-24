@@ -1,0 +1,5 @@
+.sidebar__item-link {
+	text-decoration: none;
+	color: $color-sidebar-text;
+	@extend %font-settings-sidebar-text;
+}

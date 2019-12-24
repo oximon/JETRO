@@ -1,0 +1,5 @@
+.footer__twitter-post-text {
+	color: $color-footer-text;
+	@extend %font-settings-footer-text;
+	margin-bottom: 8px;
+}

@@ -1,0 +1,5 @@
+.feature__text {
+	color: $color-of-text;
+	@extend %font-settings-text;
+	margin-bottom: 20px;
+}

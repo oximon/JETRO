@@ -1,0 +1,4 @@
+.feature__heading {
+	@include flexbox($align-items: center);
+	margin-bottom: 38px;
+}

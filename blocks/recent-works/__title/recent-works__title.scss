@@ -1,0 +1,5 @@
+.recent-works__title {
+	color: $color-of-heading;
+	@extend %font-settings-heading;
+	margin-bottom: 26px;
+}

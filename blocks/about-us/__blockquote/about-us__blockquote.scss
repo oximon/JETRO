@@ -1,0 +1,5 @@
+.about-us__blockquote {
+	color: $color-about-us-blockquote;
+	@extend %font-settings-about-us-blockquote;
+	margin: 0;
+}

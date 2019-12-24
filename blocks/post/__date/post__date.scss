@@ -1,0 +1,4 @@
+.post__date {
+	color: $color-of-date;
+	@extend %font-settings-date;
+}
