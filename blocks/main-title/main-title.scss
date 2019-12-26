@@ -5,4 +5,25 @@
 	margin: 0 auto 28px;
 	background-color: $color-bg-main-title;
 	box-sizing: border-box;
+	position: relative;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: calc((100vw - 940px) / 2 - 18px);
+		top: 0;
+		right: calc(100% + 10px);
+		background-color: $color-of-outlines;
+	}
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		height: 100%;
+		width: calc((100vw - 940px) / 2 - 18px);
+		top: 0;
+		left: calc(100% + 10px);
+		background-color: $color-of-outlines;
+	}
 }

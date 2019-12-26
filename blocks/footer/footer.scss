@@ -17,5 +17,25 @@
   background-color: $color-bg-footer;
 	box-sizing: border-box;
 	@include for-tablet-portait-only {padding: 38px 15px;}
-	
+	position: relative;
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: calc(100% + 10px);
+		width: calc((100vw - 940px) / 2 - 18px);
+		height: 100%;
+		background-color: $color-of-outlines;
+	}
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: calc(100% + 10px);
+		height: 100%;
+		width: calc((100vw - 940px) / 2 - 18px);
+		background-color: $color-of-outlines;
+	}
 }
