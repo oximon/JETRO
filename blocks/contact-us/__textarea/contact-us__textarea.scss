@@ -8,4 +8,8 @@
   border: 1px solid #e8603c;
 	width: 100%;
 	min-height: 204px;
+	resize: none;
+	&::placeholder {
+		color: $color-of-text-contact-us-link;
+	}
 }

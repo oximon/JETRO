@@ -1,5 +1,5 @@
 .header__list-link, .button-link {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   font-weight: bold; }
 
@@ -92,7 +92,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 22px 0; }
+  padding: 10px 0; }
   @media (min-width: 900px) and (max-width: 1199px) {
     .header {
       padding: 22px 35px; } }
@@ -122,6 +122,11 @@
   color: #fff;
   font-size: 28px;
   margin-bottom: 27px; }
+
+.footer__twitter-post {
+  margin-bottom: 19px; }
+  .footer__twitter-post:last-child {
+    margin-bottom: 0; }
 
 .footer__twitter-post-date {
   color: #f3b29d;
@@ -351,7 +356,14 @@
   outline: none;
   border: 1px solid #e8603c;
   width: 100%;
-  min-height: 204px; }
+  min-height: 204px;
+  resize: none; }
+  .contact-us__textarea::placeholder {
+    color: #e8603c; }
+
+.contact-us__button-link {
+  border: none;
+  outline: none; }
 
 .contact-us {
   padding-bottom: 37px; }

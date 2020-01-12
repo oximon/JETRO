@@ -2,9 +2,10 @@
 	position: absolute;
 	bottom: 32px;
 	left: 36px;
-	max-width: 380px;
-	min-height: 92px;
+	max-width: 413px;
+	min-height: 124px;
 	padding: 22px 18px;
 	background-color: $color-bg-slider;
 	opacity: 0.8;
+	box-sizing: border-box;
 }

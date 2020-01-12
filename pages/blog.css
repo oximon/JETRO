@@ -1,5 +1,5 @@
 .header__list-link {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   font-weight: bold; }
 
@@ -105,7 +105,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 22px 0; }
+  padding: 10px 0; }
   @media (min-width: 900px) and (max-width: 1199px) {
     .header {
       padding: 22px 35px; } }
@@ -135,6 +135,11 @@
   color: #fff;
   font-size: 28px;
   margin-bottom: 27px; }
+
+.footer__twitter-post {
+  margin-bottom: 19px; }
+  .footer__twitter-post:last-child {
+    margin-bottom: 0; }
 
 .footer__twitter-post-date {
   color: #f3b29d;

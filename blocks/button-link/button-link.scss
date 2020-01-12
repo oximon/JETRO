@@ -1,10 +1,10 @@
 .button-link {
-	color: $color-of-button-link;
-	background-color: $color-of-bg-button-link;
-	@extend %font-settings-link;
-	padding: 10px 15px;
-	text-transform: uppercase;
-	text-decoration: none;
+  color: $color-of-button-link;
+  background-color: $color-of-bg-button-link;
+  @extend %font-settings-link;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-@import '_inactive/button-link_inactive';
+@import "_inactive/button-link_inactive";

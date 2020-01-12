@@ -10,8 +10,8 @@
 	max-width: 940px;
 	margin: 0 auto;
 	@include flexbox($align-items: center); 
-	padding: 22px 0;
+	padding: 10px 0;
 	@include for-tablet-landscape-only { padding: 22px 35px;}
 	@include for-tablet-portait-only {padding: 11px 15px;}
-	// @include for-phone-only {padding: ;}
 }
+
